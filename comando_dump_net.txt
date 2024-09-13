@@ -1,0 +1,2 @@
+nombre_comando= tcpdump
+comando_de_ejecución= sudo tcp_dump
