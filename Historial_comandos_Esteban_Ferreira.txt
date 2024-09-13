@@ -1,0 +1,395 @@
+cd repogit/
+ls
+cd miRepo/
+git status
+git commit -m "First commit"
+git config --global user.email "ferreiraeo@gmail.com"
+git config --global user.name "ElFantasma667"
+git push
+exit
+ls
+exit
+ls
+cat read
+cat readme
+ls
+cat README
+cd repogit
+ls
+cd..
+ls
+cd ..
+ls
+cd carpeta_compartida/
+ls
+cd..
+cd ..
+ls
+cd ..
+ls
+cd home
+ls
+cd ubuntu
+cd vagrant
+ls
+cd repogit
+cd ..
+whoami
+pwd
+echo Hola
+echo $home
+echo $HOME
+echo --help
+echo ?
+man echo
+man cat
+man echo
+man
+man man
+man(6)
+man man
+cd repogit/
+ls
+git clone https://github.com/ElFantasma667/miRepo.git
+ls
+cd miRepo/
+ls
+cat read
+cat README.md 
+history
+historial.txt
+history > historial.txt
+cat historial.txt
+git status
+git add historial.txt 
+git status
+git commit -m "Primer commit"
+ls
+sudo su
+vagrant halt
+vagrant sh
+vagrant up
+ls
+exit
+ls
+cd repogit
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cd..
+cd miRepo
+cd ..
+cd miRepo/
+ls
+cat historial.txt
+git status
+vagrant status
+exit
+ls
+cd repogit/
+ls -l
+git clone git@github.com:ElFantasma667/miRepo.git
+git status
+cd miRepo/
+ls -l
+git status
+history
+history -> historial.txt
+history > historial.txt
+git status
+cat historial.txt 
+echo "hola" > hola.txt
+ls
+git status
+rm historial.txt
+ls
+git status
+git add .
+git status
+git commit -m "Primer commit 311"
+git push
+git config --global user.name "estebanFerreiraUtn"
+git status
+cat /etc/passwd
+head /etc/passwd
+head -n2 /etc/passwd
+head -tail2 /etc/passwd
+grep -n bash /etc/passwd
+grep bash /etc/passwd > archivo_pass.txt
+ls -l
+cat archivo_pass.txt 
+sort archivo_pass.txt 
+cat << EOF > archivo_redireccionado.txt
+linea 1
+linea 2
+linea 3
+EOF
+
+bc <<< 5+2
+ls
+echo "saludos" >> chau.txt
+ls
+rm chau.txt 
+echo "saludos" >> hola.txt
+cat hola.txt 
+ls
+cat archivo_pass.txt hola.txt > archivo_concatenado.txt
+ls -l
+cat archivo_concatenado.txt 
+|
+cpu-info
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+cd..
+git clone git@github.com:estebanFerreiraUtn/TP_AySO.git
+cd..
+ls
+rm TP_AySO/
+rm -r TP_AySO/
+ls
+cd..
+cd ..
+ls
+git clone 
+git clone git@github.com:estebanFerreiraUtn/TP_AySO.git
+cd TP_AySO/
+ls
+vagrant halt
+exit
+pwd
+ls
+cd repogit
+ls
+cd miRepo/
+ls
+cd..
+cd ..
+ls
+cd ..
+ls
+cd repogit/
+cd..
+cd ..
+ls
+cd carpeta_compartida/
+ls
+cd..
+cd ..
+cd repogit
+cd miRepo/
+cd ..
+ls
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -la
+cd /.ssh
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd ..
+ls
+ls -l
+cd repogit/
+ls
+rm -r miRepo
+ls -l
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+cat comando_dump_net.txt
+echo "comando_de_ejecución= sudo tcpdump" >> comando_dump_net.txt 
+cat comando_dump_net.txt 
+git status
+git add .
+git commit -m "ADD: Comando para capturar y analizar tráfico de red"
+LS
+ls
+cat README.md 
+cat << EOF >> README.md 
+Alumno: Esteban Oscar Ferreira
+División: 311
+Turno: Noche
+EOF
+
+cat README.md 
+cat << EOF > README.md 
+# TP_AySO
+git status
+
+git status
+git restore README.md
+git status
+cat README.md 
+LS
+cd..
+cd ..
+cat /TP_AySO/README.md
+cd ..
+cat repogit/TP_AySO/README.md
+cd repogit/
+cd TP_AySO/
+cat << EOF >> README.md 
+
+Alumno: Esteban Oscar Ferreira
+División: 311
+Turno: Noche
+EOF
+
+cat README.md 
+git status
+git commit -m "doc: Añadiendo información del alumno, curso y división"
+git status
+git add .
+git commit -m "doc: Añadiendo información del alumno, curso y división"
+git status
+history -a
+cat $HOME/.bashhistory
+cat $HOME/.bash_history
+exit
+cd repogit
+ls
+cd TP_AySO/
+LS
+ls
+pwd
+ls -l
+cat /etc/os-release
+man grep
+clear
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+cat datos_usuario.txt
+git status
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep -i cpu /proc/cpuinfo
+cat /proc/cpuinfo
+grep -i model /proc/cpuinfo
+grep -i model /proc/cpuinfo | tail -n 2
+grep -i model name /proc/cpuinfo | tail -n 2
+grep -i model name
+grep -i model name /proc/cpuifo
+grep -i model name /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo | tail -n1
+grep -i "model name" /proc/cpuinfo | tail -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+cat /etc/passwd
+grep man
+ls
+man grep
+grep -v "nologin"
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head -n10
+man sort
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 7
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 1
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 2
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 3
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 6
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+man
+man man
+dump
+tcpdump
+echo "nombre_comando= tcpdump" > comando_dump_net.txt
+cat comando_dump_net.txt 
+tcpdump man
+man tcpdump
+sudo tcpdump
+ls
+cat $HOME/.bash_history
+echo "INICIO TP 1 ARQUITECTURA"
+ls
+cd repogit/
+ls
+git clone git@github.com:estebanFerreiraUtn/TP_AySO.git
+pwd
+ls -l
+cd TP_AySO/
+ls
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)>datos_usuario.txt
+ls
+exit
+
+echo "Usuario=$(whoami)">datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+grep "model" /virtual/proc/cpuinfo
+grep "model" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1
+grep "model name" /proc/cpuinfo | tail -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+man grep
+grep "nologin" | head -n10
+cat | grep "nologin" | head -n10
+cat grep "nologin" | head -n10
+grep "nologin" /etc/passwd | head -n10
+man sort
+grep "nologin" /etc/passwd | head -n10 | sort -k 1
+grep "nologin" /etc/passwd | head -n10 | sort -k 7
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 7
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+man
+man man
+man(1)
+man man
+apropos traffic
+apropos dump
+echo "nombre_comando= tcpdump" > comando_dump_net.txt
+ls
+cat comando_dump_net.txt 
+tcpdump
+echo "comando__de_ejecución= sudo tcp_dump"
+cat comando_dump_net.txt 
+echo "comando_de_ejecución= sudo tcp_dump" >> comando_dump_net.txt
+cat comando_dump_net.txt 
+git add .
+git status
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat README.md 
+cat << EOF >> README.md
+
+Alumno: Esteban Oscar Ferreira
+División: 311
+Turno: Noche
+EOF
+
+cat README.md 
+git add .
+git commit -m "doc: Añadiendo datos del alumno a README.md"
+man history
+history -a
